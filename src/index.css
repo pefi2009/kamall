@@ -1,0 +1,70 @@
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.brad{
+  height: 170px;
+  width:100%;
+  }
+ 
+.bar{
+  height: 100px;
+  width:100px;
+  }
+ 
+
+.sib{
+  border: solid green 1px;
+  margin: 2px;
+}
+.title{
+  text-align: center;
+  overflow: hidden;
+  color: purple;
+  white-space: nowrap;
+  text-overflow: clip;
+
+}
+ .buy{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+ }
+.card{ 
+display: grid;
+grid-template-rows: 1fr; 
+grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+background-color:aqua;}
+
+.Nav{
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  justify-content: center;
+   display: flex;
+   font-size: large;
+   align-self: center;
+   color: aqua;
+}
+.Navi{
+  font-size:xx-large;
+  margin-bottom: 120px;
+  border-radius: 70px;
+}
+.Navvi{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+ 
